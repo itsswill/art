@@ -1,52 +1,99 @@
 
-<section id="sidepanel-nav" class="h-screen flex bg-gray-200 w-64">
-  <!-- Begin Header Of Page -->
-  <header class="h-16">
-    <!-- Begin Brand-->
-    <div>
-      <h1>Willy's Page</h1>
-    </div>
-    <!-- End Brand-->
-  </header>
-  <!-- End Header of Page -->
-
-  <!-- Begin Navigation -->
-  <nav>
-    <ul>
-        <li><a href="#">Dashboard</a></li>
-        <li><a href="#">Dashboard</a></li>
-        <li><a href="#">Dashboard</a></li>
-        <li><a href="#">Dashboard</a></li>
-        <li><a href="#">Dashboard</a></li>
-        <li><a href="#">Dashboard</a></li>
-        <li><a href="#">Dashboard</a></li>
-    </ul>
-  </nav>
-  <!-- End Navigation-->
-</section>
-
-<!-- Primary Content Area-->
-<section class="flex">
-  <!--Begin primary content area header-->
-  <header class="bg-gray-200">
-    <!-- This is where the cheeseburger menu lives -->
-    <div class="px-3">
-       menu
-    </div>
-    
-    <!-- This is where the Search box lives-->
-    <div class="pl-12">
-      <input type="text">
-    </div>
-  </header>
-  <!-- End Primary Content Area Header-->
-
-  <!-- Begin Widget Area Section -->
-  <section>
-
+<div class="flex">
+  <section id="sidepanel-nav" class="h-screen w-64 flex-col border-r-2">
+    <!-- Begin Header Of Page -->
+    <header>
+      <!-- Begin Brand-->
+      <div class="px-12 py-4 h-16">
+        <h1>Brand Here</h1>
+      </div>
+      <!-- End Brand-->
+    </header>
+    <!-- End Header of Page -->
+  
+    <!-- Begin Navigation -->
+      <nav>
+        <ul>
+          <li>
+            <a class="block px-12 py-4 hover:bg-gray-200 text-sm" href="#">Dashboard</a>
+          </li>
+            <li>
+              <a class="block px-12 py-4 hover:bg-gray-200 text-sm" href="#">E-Commerce</a>
+            </li>
+            <li>
+              <a class="block px-12 py-4  hover:bg-gray-200 text-sm" href="#">Calendar</a>
+            </li>
+            <li>
+              <a class="block px-12 py-4 hover:bg-gray-200 text-sm" href="#">Mail</a>
+            </li>
+            <li>
+              <a class="block px-12 py-4 hover:bg-gray-200 text-sm" href="#">Chat</a>
+            </li>
+            <li>
+              <a class="block px-12 py-4 hover:bg-gray-200 text-sm" href="#">Contacts</a>
+            </li>
+            <li>
+              <a class="block px-12 py-4 hover:bg-gray-200 text-sm" href="#">ToDo</a>
+            </li>
+            <li>
+              <a class="block px-12 py-4 hover:bg-gray-200 text-sm" href="#">File Manager</a>
+            </li>
+        </ul>
+      </nav>
+    <!-- End Navigation-->
   </section>
-  <!-- End Widget Area Section -->
+  
+  <!-- Primary Content Area-->
+  <section class="w-screen ">
+    <!--Begin primary content area header-->
+    <header class="flex h-16">
+      <!-- This is where the cheeseburger menu lives -->
+      <div class=" p-4">
+         menu
+      </div>
+      
+      <!-- This is where the Search box lives-->
+      <div class="p-4">
+        <input type="text" placeholder="Search..." class="text-center text-lg font-light border-2 bg-gray-300 rounded">
+      </div>
+    </header>
+    <!-- End Primary Content Area Header-->
+  
+    <!-- Begin Widget Area Section -->
+    <section class=" flex bg-gray-200 max-h-full">
+      <!-- Begin Small Widget Section-->
+      <div class="flex w-full">
+        <div class="w-1/3 bg-white h-40 mt-10 mx-12 rounded-lg font-serif text-lg pt-4 pl-6">
+          Visits
+        </div>
+        <div class="w-1/3 bg-white h-40 mt-10 mx-12 rounded-lg font-serif text-lg pt-4 pl-6">
+          Orders
+        </div>
+        <div class="w-1/3 bg-white h-40 mt-10 mx-12 rounded-lg font-serif text-lg pt-4 pl-6">
+          Sales
+        </div>
+      </div>
+      
+       <!-- End Small Widget Section-->
+      <!--Begin Big Widget Section-->
+    </section>
+    <section class="flex bg-gray-200 max-h-full">
+      <div class="bg-white w-7/12 h-64 mt-6 mx-12 rounded-lg font-serif text-xl pt-4 pl-6">
+        Revenue
+      </div>
+      <div class="bg-white w-1/4 h-64 mt-6 mx-12 rounded-lg font-serif text-lg pt-4 pl-6">
+        Profit
+      </div>
+    </section>
+    <section class="flex bg-gray-200 max-h-full">
+      <div class="bg-white w-7/12 h-64 mt-6 mx-12 rounded-lg font-serif text-xl pt-4 pl-6">
+        Revenue
+      </div>
+      <div class="bg-white w-1/4 h-64 mt-6 mx-12 rounded-lg font-serif text-lg pt-4 pl-6">
+        Profit
+      </div>
+    </section>
+  </section>
+</div>
+<!--Begin Primary Content Area-->
 
-
-</section>
-<!-- Begin Primary Content Area-->
